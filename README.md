@@ -1,8 +1,8 @@
-# 🔐 CryptoVault-CLI
+#  CryptoVault-CLI
 
 An advanced, highly secure terminal-based password manager built entirely in C. Designed to safely store website credentials, linked identifiers (emails/usernames), and passwords using dynamic memory and symmetric encryption.
 
-## 🚀 Key Features & Concepts Used
+##  Key Features & Concepts Used
 
 * **Dynamic Memory Allocation (DMA):** Utilizes `malloc`, `realloc`, and `free` to scale the vault infinitely without memory leaks or segmentation faults.
 * **Bitwise XOR Encryption:** Implements a symmetric cipher using the `^` operator to encrypt passwords in real-time, keeping data safe in RAM.
@@ -14,7 +14,7 @@ An advanced, highly secure terminal-based password manager built entirely in C. 
 
 ---
 
-## 📸 Project Screenshots
+##  Project Screenshots
 
 ### 1. Initial Setup & Vault Configuration
 ![Setup](Screenshot%202026-11-03%20100022.png)
@@ -27,7 +27,7 @@ An advanced, highly secure terminal-based password manager built entirely in C. 
 
 ---
 
-## 💻 How to Run (Local Compiler)
+##  How to Run (Local Compiler)
 
 Since this project features continuous runtime loops and real-time terminal inputs, it is recommended to run it on a local compiler (VS Code, Dev-C++, or GCC) rather than an online web compiler to avoid server timeouts.
 
